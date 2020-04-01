@@ -22,32 +22,58 @@ ol, ul {
 /* Actual CSS from here */
 
 body {
-    background-color: hsl(35, 35%, 19%);
+    background-color: #1C2516;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Roboto Slab', Arial, sans-serif;
 }
 
 main {
-    margin: 0px 20px;
-    width: 80%;
+    background-color: #AFB675;
+    margin: 10px 20px;
+    width: 90%;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: yellow;
-    align-self: center;
+    margin: 20px 0px;
+    font-weight: bold;
 }
 
 #img-div {
     padding-top: 20px;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 #image {
     max-width: 100%;
-    margin: auto;
+    margin: 20px auto;
     display: block;
     width: auto;
+}
+
+#img-caption {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#tribute-info {
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: circle;
+}
+
+li {
+    margin: 16px 0;
 }
